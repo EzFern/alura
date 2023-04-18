@@ -1,0 +1,40 @@
+<meta charset="UTF-8">
+
+<body>
+	<h1>PROGRAMA Mundiales FIFA</h1>
+
+	<script>
+
+	    function saltarLinea() {
+	        document.write("<br>");
+	        document.write("<br>");
+	        document.write("<br>");
+	    }
+
+	    function imprimir(frase) {
+	        document.write(frase);
+	        saltarLinea();
+	    }
+
+	    var fechaMundial = 1930;
+	    var limite = parseInt(prompt("Ingrese el año hasta el cual calcular"))
+
+	    	//fechaMundial = fechaMundial + 4;
+	
+	    	//alert("Hubo mundial de la FIFA en el año " + fechaMundial);
+	    	//	    fechaMundial = fechaMundial + 4;
+	
+	    	//alert("Hubo mundial de la FIFA en el año " + fechaMundial);
+	    	//	    fechaMundial = fechaMundial + 4;
+	
+	    	//alert("Hubo mundial de la FIFA en el año " + fechaMundial);
+	
+	    while (fechaMundial <= limite) {
+	    	imprimir("Hubo mundial de la FIFA en el 	año " + fechaMundial);
+	    	fechaMundial = fechaMundial + 4;
+	    }
+
+	    imprimir("fin")
+
+	</script>
+</body>
